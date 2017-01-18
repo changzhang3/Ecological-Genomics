@@ -14,3 +14,10 @@ Syntax for creating a list
 * item 2
 * item 3
 ```
+
+Example of embedding a URL:
+Syntax:
+```
+[hyperlinked words](https://www.uvm.edu/)
+```
+Implementation:
