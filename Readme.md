@@ -23,3 +23,11 @@ Syntax:
 Implementation:
 
 This is UVM [website](https://www.uvm.edu/)
+
+Example of embedding an image:
+
+Syntax:
+
+```
+![](URL)
+```
