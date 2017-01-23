@@ -41,13 +41,17 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 * take home messages
 * examples from literature
 
-advances in sequencing tech
-range of applications
-library prep
-SBS
-other technologies
-learning activity
+* advances in sequencing tech
+* range of applications
+* library prep
+* SBS
+* other technologies
+* learning activity
 
 Human genome project 
+*Sanger (2001-2003) vs. Hiseq (2014)
+	*15 yr vs 1 day, 1 genome vs 45, $3 billion vs $1000
+	
+	
 
   
