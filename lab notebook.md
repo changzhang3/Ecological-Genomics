@@ -43,9 +43,27 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 
 * advances in sequencing tech
 * range of applications: WGS, RNAseq, ChIPseq, targeted/capture seq (custom-designed probes)
+	* reducing representation:
+		* Use RNA (will be concentrated at highly expressed genes, such as actin)
+		* GBS/RAD-seq
 * library prep: depends on the application
+	* extract DNA or RNA (cDNA synthesis)
+	* fragment sample
+	* ligate adapters
+		* individual barcode
+	* add on sequencing adapters
+	* PCR
 * Sequencing-by-Synthesis (SBS)
+	* DNA with adapters get loaded onto a lane on a flow cell
+	* DNA washed over the lane and attached to the oligos
+	* bridge amplification -- cluster generation
+	* incorporate labeled dNTP -- imaging and recording which nucleotide is added
 * other technologies
+	* PacBio
+		* Single molecule, Real time
+		* 10,000- 60,000bp
+		* not as accurate
+		* can be used for "haplotyping"
 * learning activity
 
 Human genome project 
@@ -60,7 +78,17 @@ Choosing platforms:
 * Adaptive genetic variation
 * gene expression variation
 
-	
+* length of reads
+	* longer you have, assembly is easier, confidence is higher
+* number of reads
+* distribution
+	* random or concentrated in an area?
+
+#Glossary
+* Reads
+	* short 50bp
+	* long 100, 150, 300bp (Miseq), 10,000-60,000bp (SMRT)
+	* single vs paired-end	
 	
 
   
