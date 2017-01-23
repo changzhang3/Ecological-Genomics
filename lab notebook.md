@@ -87,6 +87,13 @@ Choosing platforms:
 * number of reads
 * distribution
 	* random or concentrated in an area?
+	
+
+Paper Discussion
+* Ellegern et al. 
+
+	We talked about:
+	* reference genome
 
 # Glossary
 * Reads
