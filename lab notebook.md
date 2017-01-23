@@ -29,4 +29,16 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 * Lastly, you can share specific entries because of the three "#" automatically creates a link when the notebook renders on github.      
 
 
-### Table of contents for 60 entries (Format is *Page: Date(with year-month-day). Title*) 
+### Table of contents for 60 entries (Format is *Page: Date(with year-month-day). Title*)
+
+## 2017-01-23
+
+# Info update
+# outline
+# 20 min
+# learning.engaging activity
+# use board 
+# take home messages
+# examples from literature
+
+##  
