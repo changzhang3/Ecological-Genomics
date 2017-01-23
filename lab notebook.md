@@ -42,15 +42,24 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 * examples from literature
 
 * advances in sequencing tech
-* range of applications
-* library prep
-* SBS
+* range of applications: WGS, RNAseq, ChIPseq, targeted/capture seq (custom-designed probes)
+* library prep: depends on the application
+* Sequencing-by-Synthesis (SBS)
 * other technologies
 * learning activity
 
 Human genome project 
 * Sanger (2001-2003) vs. Hiseq (2014)
 	* 15 yr vs 1 day, 1 genome vs 45, $3 billion vs $1000
+
+Choosing platforms:
+* where is genetic variation, phenotypes of interest
+* population vs individuals, comparative studies
+* model organisms or not -- whether there is genetic information available
+* demographic history
+* Adaptive genetic variation
+* gene expression variation
+
 	
 	
 
