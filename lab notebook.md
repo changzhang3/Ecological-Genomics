@@ -46,9 +46,10 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 	* reducing representation:
 		* Use RNA (will be concentrated at highly expressed genes, such as actin)
 		* GBS/RAD-seq
+	* Illumina is generating 90% of global data
 * library prep: depends on the application
 	* extract DNA or RNA (cDNA synthesis)
-	* fragment sample
+	* fragment sample, size selection
 	* ligate adapters
 		* individual barcode
 	* add on sequencing adapters
@@ -64,6 +65,7 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 		* 10,000- 60,000bp
 		* not as accurate
 		* can be used for "haplotyping"
+		* error rate 15%
 * learning activity
 
 Human genome project 
@@ -74,6 +76,8 @@ Choosing platforms:
 * where is genetic variation, phenotypes of interest
 * population vs individuals, comparative studies
 * model organisms or not -- whether there is genetic information available
+	* combining different approaches
+	* de novo assembly for non-model
 * demographic history
 * Adaptive genetic variation
 * gene expression variation
@@ -84,7 +88,7 @@ Choosing platforms:
 * distribution
 	* random or concentrated in an area?
 
-#Glossary
+# Glossary
 * Reads
 	* short 50bp
 	* long 100, 150, 300bp (Miseq), 10,000-60,000bp (SMRT)
