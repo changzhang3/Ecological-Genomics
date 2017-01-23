@@ -34,12 +34,12 @@ Science should be reproducible and one of the best ways to achieve this is by lo
 ## 2017-01-23
 
 # Info update
-outline
-20 min
-learning.engaging activity
-use board 
-take home messages
-examples from literature
+* outline
+* 20 min
+* learning.engaging activity
+* use board 
+* take home messages
+* examples from literature
 
 advances in sequencing tech
 range of applications
