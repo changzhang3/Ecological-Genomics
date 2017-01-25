@@ -104,6 +104,21 @@ outline
 * debate
 * discussion of group projects
 
+# info update
+* What are QTN?
+	* Quantitative trait nucleotides
+		* traits under selection, adaptive traits
+			* flowering time, flower color, thermal tolerance, defense compounds, drought tolerance, toxin tolerance, venom potency, hypoxia tolerance...
+			* Mendelian -> single gene locus
+			* quantitative trait -> 
+* Quantitative genetic theory of adaptive traits
+* Methods
+	* linkage mapping
+	* GWAS
+	* selection scans
+	
+
+	
 # Glossary
 * Reads
 	* short 50bp
