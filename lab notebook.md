@@ -98,6 +98,11 @@ Paper Discussion
 	
 ## 2017-01-25 
 
+outline
+* announcement
+* info update: QTN
+* debate
+* discussion of group projects
 
 # Glossary
 * Reads
