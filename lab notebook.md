@@ -94,6 +94,10 @@ Paper Discussion
 
 	We talked about:
 	* reference genome
+	
+	
+## 2017-01-25 
+
 
 # Glossary
 * Reads
