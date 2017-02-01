@@ -159,8 +159,43 @@ info update
 			* single or pair-end, get short contigs
 			* mate pair: long sequence reads (thousands of bp), for making scaffolds
 		* need to have an idea of GC content, repeat abundance, duplicate reads
-		
+		* assemble genome, quality control (N50: 50% of sequence greater than the "middle" bp long of the contigs-- don't want really small reads..)
+		* annotate, according to related organisms (ref genome)
 
+* RNA-seq
+	* Advantage: 
+		* differential genome expression
+		* allelic specific expression -- environmental responses, adaptation
+		* Functional relevant subset of the genome
+		* vs. microarray
+	* limitations 
+		* vs. proteomics
+		* post-transcriptional modifications
+		* spatial, temporal
+		* strand specificity
+	* sequencing platforms, error profiles, sequencing coverage: 
+		* pyrosequencing from Roche -- incorrect homopolymer
+		* Ion torrent
+		* Illumina -- GC content matters
+		
+* Unix
+	* log in using ssh czhang3@pbio381.uvm.edu
+	* 24 cpu cores
+	* 32 Gb RAM
+	* 1 TB HD
+	* to check who's on it: $ top, to quite just to type q
+	* home directory, symbolized by ~/
+	* pwd tells you where you are
+	* to look at what's in there, use ll command
+	* make a new folder called mydata, using mkdir command
+	* move around: use cd command
+	* copy and paste file: go into the folder project data, ll the content, find the sample file, cp file name destination
+	* usage of / 
+	* the head command to print first 10 lines of file
+	* head -n 15 file name ->customize how many lines to look at
+	* tail command to look at the last 10 lines of file
+	* Will use head and tail command a lot! -> look at file without opening the whole thing
+			
 	
 # Glossary
 * Reads
