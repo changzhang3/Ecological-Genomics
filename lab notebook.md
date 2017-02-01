@@ -117,11 +117,11 @@ outline
 	* GWAS
 	* selection scans
 	
-# Melissa's data
+Melissa's data
 * sea star
 * affect many different sea star species, can happen quickly
 
-# what is causing the disease? pathogen unknown
+what is causing the disease? pathogen unknown
 
 * symptoms: loss of turgor, lesion hole, limbs pulling off, turn into white glue and die at the end
 * Use infected sea star to infect healthy ones for experiment
