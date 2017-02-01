@@ -130,8 +130,36 @@ what is causing the disease? pathogen unknown
 
 
 ##2017-02-01
-
-
+info update
+* WGS
+	* applications
+	
+	* prior considerations
+		*reference genome available?
+		
+	* limitations
+		* rapidly evolving genes
+		* large gene families
+		* polymorphic genes
+		* paralogs
+		* usually using 1 individual
+		* it won't be 100% whole genome -- heterochromatin, highly repetitive
+	
+	* more considerations:
+		* Illumina 150bp, SOLiD 50bp, Pacific Biosciences 5kb, Ion Torrent 500bp, Illumina Moleculo up to 10kb
+		* genome size: K-mer approach to estimate genome size, or flowcytometry 
+		* repeat content
+		* error rate of sequencing
+		* degree of genome duplications, polypoidy
+	
+	* methods
+		* tissue type: avoid energetically active tissue such as muscle (lots of mitochondria dna), avoid gut/skin (DNA from other organisms)
+		* quantity of DNA: 6 microgram to 1 milligram
+		* library prep
+			* single or pair-end, get short contigs
+			* mate pair: long sequence reads (thousands of bp), for making scaffolds
+		* need to have an idea of GC content, repeat abundance, duplicate reads
+		
 
 	
 # Glossary
