@@ -117,6 +117,21 @@ outline
 	* GWAS
 	* selection scans
 	
+# Melissa's data
+* sea star
+* affect many different sea star species, can happen quickly
+
+# what is causing the disease? pathogen unknown
+
+* symptoms: loss of turgor, lesion hole, limbs pulling off, turn into white glue and die at the end
+* Use infected sea star to infect healthy ones for experiment
+* Pisaster ochraceus -- bring in lab. 
+* Densovirus implicated: Hewson et al. 2014 PNAS
+
+
+##2017-02-01
+
+
 
 	
 # Glossary
