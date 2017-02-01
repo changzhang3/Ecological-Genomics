@@ -195,6 +195,18 @@ info update
 	* head -n 15 file name ->customize how many lines to look at
 	* tail command to look at the last 10 lines of file
 	* Will use head and tail command a lot! -> look at file without opening the whole thing
+	* grep tool to search for a target query
+	* use grep to search HH samples and pull them out: grep 'what you want to pull' >name of file want to print
+	* grep 'HH' ssw_samples.txt >ssw_HHonly.txt
+	* wild cards *
+	* delete files: rm ->very dangerous
+	* add safeguard: .bashrc (a hidden file)
+	* ll -a list all hidden files
+	* use command vim .bashrc
+	* type i to insert
+	* type: alias rm='rm -i' , which is ask me to confirm
+	* then type :q! to overwrite
+	
 			
 	
 # Glossary
