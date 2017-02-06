@@ -259,7 +259,37 @@ RNA-Seq workflow
 * RNA-Seq data analysis coding session
 
 	* 1. go into the fastq file in /data/project_data/fastq using cd command
-	* 2. 
+			cd /data/project_data/fastq
+	* 2. each fastq file is in .gz, and has two files R1, R2 (R1 left reads, R2 right reads), 0-5 is disease scale (5 dead)
+	
+	* 3. file to work: 10_5-20_S_2_R1.fq.gz, 10_5-20_S_2_R2.fq.gz
+		for evaluating, cleaning, and evaluating again
+		* use zcat to look into zip file
+			zcat 10_5-20_S_2_R1.fq.gz | head
+			* looking at the fastq file: 4 lines of text per read
+			 4th line: letters are Q-scores, aligned with every single nt
+			  -> letters are good
+			* use FastQC
+			located in /data/popgen/ directory
+			copy the trim_example.sh into my home directory (~/scripts)
+			* vim trim_example.sh
+			* in trimmomaticPE
+				* in vim, first hit i to change to insert mode
+				* changed file name, added /data/project_data/fastq/cleanreads/cleanreads/
+				* 2 input, 4 output, also .fq
+				* to save in vim, first press esc, :w (save only), :wq (save and quite), :q (to quite)
+				* all vim commands starts with :
+				* has the illuminaclip file, so it will trim off adapters
+				* also headcrop first 9 nt
+				* min length 35
+				
+				
+			* run script: bash trim_example.sh
+			or ./trim_example.sh
+			* results:
+			Input Read Pairs: 16966813 Both Surviving: 14470376 (85.29%) Forward Only Surviving: 1830846 (10.79%) Reverse Only Surviving: 303879 (1.79%) Dropped: 361712 (2.13%)
+			
+			 
 
 
 	
