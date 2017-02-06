@@ -255,6 +255,13 @@ RNA-Seq workflow
 	* all: 10%
 	* DEG 20%, -> overrepresented
 	
+
+* RNA-Seq data analysis coding session
+
+	* 1. go into the fastq file in /data/project_data/fastq using cd command
+	* 2. 
+
+
 	
 
 
