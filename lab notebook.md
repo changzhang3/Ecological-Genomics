@@ -207,7 +207,64 @@ info update
 	* type: alias rm='rm -i' , which is ask me to confirm
 	* then type :q! to overwrite
 	
-			
+	
+2017-02-06
+
+RNA-Seq workflow
+
+* Approach, Experimental design, Library Prep, Sequencing
+
+* Receive data
+
+* Computer/Server setup
+
+* After receiving fastq files
+	* Evaluate quality
+	
+	* Clean reads (.fastq, .fq, .gzip)
+		* adapters
+		* nucleotide quality
+		* length of reads
+		
+	* Evaluate Quality
+	
+	* de novo transcriptome Assembly (making the reference genome) (.fasta)
+	
+		* Evaluate assembly
+		 * compare to closely related species
+		 * compare to KEG/CEG (core eukaryotic genes) -- BlastX, get GO terms
+		 * N50
+		 * number of contigs
+		 
+		* Annotation (Blast)
+	
+	* Map reads to reference transcriptome (.sam, sequence alignment file)
+	 * generates lots of alignment files
+	  * each sample has an alignment file
+	
+	* a. Extract read count info (number of reads that map to each contig for each sample)
+	* b. Identify SNPs
+	
+	* a. DGE analysis (Differential gene expression); Co-expression network analysis
+	* b. Population genomics (genetic differentiation between groups, population structure, demographic history, test for signature of selection, etc.)
+	
+	
+* Paper Discussion
+ * unigenes: collapse splice varient contigs, typically the longest
+ * example: 60 K unigenes, 10% cuticular HC, 2K DGE, 20% cuticular HC
+	* all: 10%
+	* DEG 20%, -> overrepresented
+	
+	
+
+
+
+
+
+
+
+
+
 	
 # Glossary
 * Reads
