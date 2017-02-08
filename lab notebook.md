@@ -258,6 +258,23 @@ RNA-Seq workflow
 
 * RNA-Seq data analysis coding session
 
+we learned modifying scripts:
+* paths
+	* program
+	* input
+	* output
+* file names
+	* in 
+	* out
+* moving
+	* directories
+	* files
+	* scp - move from server to PC
+	* executing scripts, calling program
+	
+	
+	
+
 	* 1. go into the fastq file in /data/project_data/fastq using cd command
 			cd /data/project_data/fastq
 	* 2. each fastq file is in .gz, and has two files R1, R2 (R1 left reads, R2 right reads), 0-5 is disease scale (5 dead)
@@ -291,7 +308,43 @@ RNA-Seq workflow
 			
 			 
 
+2017-02-08
 
+Info update on transcriptomics
+* wild systems -- non model/non traditional model organisms in natural settings
+* a way to find silent genes responding to multiple stimuli
+* novel transcripts without homologs in model organisms
+* microarrays vs RNA-Seq
+* number of studies answering following questions: 
+	* 1. how much variation is there in gene expression and how is it structured? 288
+	* 2. how do fundamental stimuli affect gene expression? 136
+	* 3. how does gene expression affect phenotype? 15
+	* 5 studies for all
+	* 37 for 1 and 3
+	* 57 for 1 and 3
+	* 37 for 2 and 3
+* question 1: Looking at evolutionary process
+	* gene expression heritable (natural selection)
+	* epigenetics
+	* Qst-Fst comparisons
+	* eQTL
+	* macroevolution
+* question 2:
+	* abiotic stress
+	* environmental heterogeneity
+	* host-parasite interactions
+	* selective biotic and abiotic interactions
+* question 3: start from a phenotype
+	* transgenic lines
+* future
+	* problems: bias in signal, polyploidy, RNA pooling, Statistical analysis, unannotated genes
+	
+RNA-Seq coding session 2017-2-8
+goal:
+* fastqc
+* design assembly tests
+* start assemblies
+* evaluate assemblies
 	
 
 
