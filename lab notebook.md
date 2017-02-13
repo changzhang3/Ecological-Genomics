@@ -346,11 +346,51 @@ goal:
 * start assemblies
 * evaluate assemblies
 	
+	
+* command pwd to show current directory -->very useful!
+* scp fastq html onto local machine
+* also: to move the cursor, press control+A to the very beginning, control+E to the very end of the line
+
+* we did fastqc on cleaned reads, also moved the html onto local machine
+* use trinity to make assembly
+	* use paired files only
+	
+	* things that affect the assembly
+		* sick vs healthy
+		* one individual?
 
 
 
 
-
+2017-2-13
+Info update
+* RNA-Seq in ecology and evolution
+	* limitations: ref genome quality, gene annotation, expense
+	* issues: 
+		* under utilization of biological replicates
+			* 23/158 studies used biological reps
+			* derived broad biological conclusions
+		* prioritize sequencing depth over replication--this is a problem
+		* variations in data: poisson counting error; technical variance; biological variance (usually the largest variance)
+	* general rules:
+		* use more biological replicates instead of depth
+		* sequence depth > 10 reads per transcript
+		* 10-20 million mapped reads per sample 
+		* at least 3 biological replicates 
+		* conduct pilot experiment
+		
+		
+* Coding session
+	* RNA-Seq Mapping
+	* 5-15 is used for making transcriptome assembly --Did by Melissa
+	* assembly results are in data/project_data/assembly
+	
+	* changed my left file name in vim bwaaln.sh
+	* in vim, echo means print
+	* :wq to write and quit vim
+	* then, bwa aln
+	
+	
 
 
 
