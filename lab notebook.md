@@ -389,7 +389,25 @@ Info update
 	* in vim, echo means print
 	* :wq to write and quit vim
 	* then, bwa aln
+	* sai is an intermediate file
+	* bash bwaaln.sh >> bwaoutput.txt  -> meaning running the bwaaln.sh and write into the txt file
+	* tail -n 100 > tail.sam
+	* screen function: screen 
+	* then type script
+	* then press cntl+a+d (detaching)
+	* screen -r
 	
+	
+2017-2-15 coding session
+* lab notebook
+
+* SAM files
+
+* extract expression and SNP
+
+* background information
+
+
 	
 
 
